@@ -9,4 +9,8 @@ ignore = [
     "RUSTSEC-2026-0098",
     "RUSTSEC-2026-0099",
     "RUSTSEC-2026-0104",
+    # Transitive via Spin v4.2.1; fixes require semver-breaking upgrades (h2 0.3, azure_core 0.21, rkyv 0.7).
+    "RUSTSEC-2026-0258",
+    "RUSTSEC-2026-0275",
+    "RUSTSEC-2026-0235",
 ]
